@@ -1,0 +1,53 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: arial, sans-serif;
+}
+.top-menu-items {
+    float: right;
+}
+
+ul.top-menu-items li {
+    list-style: none;
+    display: inline-block;
+    padding: 10px 15px;
+    font-size:14px;
+}
+
+ul.top-menu-items li > a, ul.top-menu-items li > a:visited {
+    text-decoration: none;
+    color: #000;
+}
+
+ul.top-menu-items li > a.btn-sign-in {
+    background-color: #4285f4;
+    color: white;
+    padding: 10px 20px;
+}
+
+ul.top-menu-items li > a.btn-sign-in:hover {
+    text-decoration: none;
+    color: white;
+}
+
+ul.top-menu-items li > a:hover {
+    text-decoration: underline;
+    color: #000;
+}
+
+header {
+    height: 50px;
+    width: 100%;
+}
+
+.google-logo {
+    padding-left: 36%;
+}
+
+.google-logo img {
+    max-width: 50%;
+}
+
+section {
+    padding: 12% 0 9% 0;
+}
