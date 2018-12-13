@@ -44,8 +44,23 @@ header {
     padding-left: 36%;
 }
 
+.google-search {
+    padding-left: 33%;
+    padding-top: 20px;
+}
+
 .google-logo img {
     max-width: 50%;
+}
+
+form.btn-google-search input{
+    width: 60%;
+    padding: 1%;
+}
+
+.btn-google-submit {
+    padding-top: 20px;
+    padding-left: 44%;
 }
 
 section {
